@@ -1,5 +1,6 @@
 
-**node 版本管理工具 - nvm**
+# node 版本管理工具 - nvm
+
 
 https://www.jianshu.com/p/6c32d2078a2d
 安装node采用nvm方式安装
