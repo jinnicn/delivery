@@ -18,6 +18,8 @@ https://www.jianshu.com/p/273241280b72
 https://blog.csdn.net/hyk521/article/details/107475478
 
 ``` bash
+#查看可安装node版本
+nvm list available
 #安装最新node 
 nvm install latest 
 #安装指定版本的node   
