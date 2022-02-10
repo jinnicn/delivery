@@ -23,13 +23,13 @@ nvm list available
 #安装最新node 
 nvm install latest 
 #安装指定版本的node   
-nvm install 8.2.1 
+nvm install 16.13.2 
 #卸载指定版本的node 
-nvm uninstall 8.2.1 
+nvm uninstall 16.13.2
 #查看已安装的node  
 nvm list 或 nvm ls 
 #切换到指定的node 版本
-nvm use 10.15.3   
+nvm use 16.13.2   
 
 #切换版本必须要用管理员模式进入cmd窗口
 
