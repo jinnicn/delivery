@@ -109,5 +109,5 @@ https://www.cnblogs.com/liugang-vip/p/6337580.html
 $\color{#FF0000}{markdown-支持哪些代码高亮}$   
 https://blog.csdn.net/u013866352/article/details/105386133
 
-$\color{#FF0000}{在markdown中设置字体颜色以及背景颜色}$ 
+$\color{#FF0000}{在markdown中设置字体颜色以及背景颜色}$   
 https://www.cnblogs.com/huoxc/p/12856609.html
