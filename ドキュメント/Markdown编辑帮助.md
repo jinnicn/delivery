@@ -99,15 +99,18 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
-## 参考
-$\color{#FF0000}{高效使用md编辑文章}$   
+## #参考#
+$\color{#FF0000}{高效使用md编辑文章}$  
 https://www.jianshu.com/p/fc0fd8da98d9
 
-$\color{#FF0000}{md即markdown文件的基本常用编写语法（图文并茂）}$   
+$\color{#FF0000}{md即markdown文件的基本常用编写语法（图文并茂）}$  
 https://www.cnblogs.com/liugang-vip/p/6337580.html
 
-$\color{#FF0000}{markdown-支持哪些代码高亮}$   
+$\color{#FF0000}{markdown-支持哪些代码高亮}$  
 https://blog.csdn.net/u013866352/article/details/105386133
 
-$\color{#FF0000}{在markdown中设置字体颜色以及背景颜色}$   
+$\color{#FF0000}{在markdown中设置字体颜色以及背景颜色}$  
 https://www.cnblogs.com/huoxc/p/12856609.html
+
+$\color{#FF0000}{md内嵌图片 改进版}$  
+https://blog.csdn.net/wangaolong0427/article/details/120576894
