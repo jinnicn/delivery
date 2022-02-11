@@ -316,17 +316,15 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 
 **下面就是Angular应用的启动过程**
 
-1. Angular应用在启动时首先会去**angular.json**这个配置文件中去寻找要加载的页面和脚本。  
+1.Angular应用在启动时首先会去**angular.json**这个配置文件中去寻找要加载的页面和脚本。  
 默认是加载**index.html**和**main.ts**
-
 ```ts
  "sourceRoot": "src",
  "index": "src/index.html",
  "main": "src/main.ts",
 ``` 
 
-2. 然后去**main.ts**中找到声明指定的主模块，默认的主模块是**app.module**
-
+2.然后去**main.ts**中找到声明指定的主模块，默认的主模块是**app.module**
 ```ts
 // 导入enableProdMode用来关闭angular开发者模式
 import { enableProdMode } from '@angular/core';
@@ -349,8 +347,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 ``` 
 
-3. 然后去**app.module**中找到指定的主组件，默认的主组件是**app.component**
-
+3.然后去**app.module**中找到指定的主组件，默认的主组件是**app.component**
 ```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -374,8 +371,7 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ``` 
 
-4. 然后再去**app.component**中找到指定的选择器，模板和样式等等
-
+4.然后再去**app.component**中找到指定的选择器，模板和样式等等
 ```ts
 import { Component } from '@angular/core';
 
@@ -389,7 +385,7 @@ export class AppComponent {
 }
 ``` 
  
-5. 最后，将组件渲染到**index.html**中的选择器中
+5.最后，将组件渲染到**index.html**中的选择器中
  ```html
 <!doctype html>
 <html>
@@ -407,3 +403,11 @@ export class AppComponent {
 </body>
 </html>
 ```
+
+#
+
+## <font face="Meiryo UI" size="4" color=#00008B> 
+**Angular中优雅的处理RxJs自动取消订阅的方式以免出现内存泄露以及多次调用的问题**
+</font>  
+https://yuzhiqiang.blog.csdn.net/article/details/107443200
+
