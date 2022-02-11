@@ -9,12 +9,11 @@
 
 
 **官网**  
-https://akveo.github.io/ng2-admin/
-
+https://akveo.github.io/ng2-admin/  
+https://akveo.github.io/ngx-admin/
 
 **Gihub**  
-https://github.com/akveo/ngx-admin
-https://akveo.github.io/ngx-admin/
+https://github.com/akveo/ngx-admin  
 
 
 **最新发行版本**  
