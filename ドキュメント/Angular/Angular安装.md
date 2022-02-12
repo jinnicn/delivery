@@ -50,4 +50,38 @@ ng serve
 http://localhost:4200/
 ``` 
 
+#
 
+### <font face="Meiryo UI" color=#00008B> 
+**VSCode插件**
+</font>  
+
+**必须**  
+//引用填充和跳转到定义（html中进行引用补全）  
+Angular Language Service
+
+//Angular TypeScript Snippets for VS Code  
+Angular Snippets
+
+//HTML Snippets  
+HTML Snippets  
+
+
+
+**推荐**   
+//markdownlint  
+markdownlint
+
+
+
+**未验证**  
+TSLint：Typescript语法检查  
+Prettier：代码格式化  
+IntelliJ IDEA Keybindings：IDEA风格的快捷键  
+Angular 7 Snippets：Angular语法填充（标签）  
+Angular Files：生成Angular的文件模板（Component、Module、Pipe等等）  
+Angular Follow Selector：文件跳转（Component跳转到html、scss文件）  
+Angular Language Service：  
+Debugger for Chrome：调试Angular代码  
+Material Icon Theme（文件图标）
+One Dark Pro（主题）
