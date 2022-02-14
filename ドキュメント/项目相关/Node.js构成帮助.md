@@ -23,18 +23,18 @@ nvm list available
 #安装最新node 
 nvm install latest 
 #安装指定版本的node   
-nvm install 16.13.2 
+nvm install 16.14.0 
 #卸载指定版本的node 
-nvm uninstall 16.13.2
+nvm uninstall 16.14.0
 #查看已安装的node  
 nvm list 或 nvm ls 
 #切换到指定的node 版本
-nvm use 16.13.2   
+nvm use 16.14.0   
 
 #切换版本必须要用管理员模式进入cmd窗口
 
-nvm node_mirror https://npm.taobao.org/mirrors/node/  
-nvm npm_mirror https://npm.taobao.org/mirrors/npm/  
+nvm node_mirror https://registry.npmmirror.com/mirrors/node/  
+nvm npm_mirror https://registry.npmmirror.com/mirrors/npm/  
 
 ``` 
 
@@ -69,13 +69,14 @@ npm install yarn@latest -g
 #查看npm当前镜像源 
 npm config get registry 
 #设置npm镜像源为淘宝镜像
-npm config set registry https://registry.npm.taobao.org/  
+npm config set registry https://registry.npmmirror.com/  
 #查看yarn当前镜像源
 yarn config get registry  
 #设置yarn镜像源为淘宝镜像
-yarn config set registry https://registry.npm.taobao.org/ 
-#安装淘宝镜像
-npm install -g cnpm -registry=https://registry.npm.taobao.org
+yarn config set registry https://registry.npmmirror.com/ 
+
+#安装cnpm 并且设置为淘宝镜像源
+npm install -g cnpm -registry=https://registry.npmmirror.com/
 ``` 
 
 ### <font face="Meiryo UI" color=#00008B> 
@@ -85,7 +86,7 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
 #查看镜像源使用状态： 
 npm get registry 
 #全局切换镜像源： 
-npm config set registry http://registry.npm.taobao.org
+npm config set registry https://registry.npmmirror.com/
 npm config set registry https://registry.npmjs.org 
 #全局切换官方镜像源 
 npm config set registry http://www.npmjs.org
@@ -103,19 +104,25 @@ npm install -g nrm
 #显示当前可使用的镜像源列表 
 nrm ls
 
-* npm -------- 
+-------- npm -------- 
 https://registry.npmjs.org/ 
-yarn ------- 
+
+-------- yarn ------- 
 https://registry.yarnpkg.com/ 
-cnpm ------- 
+
+-------- cnpm ------- 
 http://r.cnpmjs.org/ 
-taobao ----- 
-https://registry.npm.taobao.org/ 
-nj --------- 
+
+-------- taobao ----- 
+ https://registry.npmmirror.com/ 
+
+-------- nj --------- 
 https://registry.nodejitsu.com/ 
-npmMirror -- 
+
+-------- npmMirror -- 
 https://skimdb.npmjs.com/registry/ 
-edunpm ----- 
+
+-------- edunpm ----- 
 http://registry.enpmjs.org/
 ``` 
 
