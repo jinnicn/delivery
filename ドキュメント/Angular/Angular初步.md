@@ -417,3 +417,13 @@ https://yuzhiqiang.blog.csdn.net/article/details/107443200
 ## <font face="Meiryo UI" size="4" color=#00008B> 
 **路由**
 </font> 
+
+https://angular.cn/start
+
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=angular%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE&fenlei=256&oq=angular%2520main%25E7%2594%25BB%25E9%259D%25A2&rsv_pq=f9aa5a4f000023ab&rsv_t=f436gSd1zTwQMMRCLsYFZoD5yEsdY13hUqvLHTBYGta7%2BmfBBA1p9l1DJ9M&rqlang=cn&rsv_enter=1&rsv_dl=ts_1&rsv_btype=t&inputT=2954&rsv_sug3=21&rsv_sug1=18&rsv_sug7=100&rsv_sug2=0&prefixsug=angular%2520luyou%2520&rsp=1&rsv_sug4=4783
+
+https://www.cnblogs.com/1156063074hp/p/10637414.html
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=angular%20RouterModule&fenlei=256&rsv_pq=cf62ebbf000025df&rsv_t=6bc7ek42vzNHAnpz%2B%2FxT9f5%2B61%2Br5sp1w9DTVwYUYmKlnRNeJrJn%2FR2Xkx4&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_n=2&rsv_sug3=7&rsv_sug1=1&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&inputT=6333&rsv_sug4=6333
+
+https://www.ngui.cc/news/show-109.html
