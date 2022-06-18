@@ -1,21 +1,25 @@
 
 # Node.js版本管理工具 - nvm
-## 
 
-### <font face="Meiryo UI" color=#00008B> 
+##
+
+### <font face="Meiryo UI" color=#00008B>
+
 **安装node采用nvm方式安装**
 </font>  
-https://www.jianshu.com/p/6c32d2078a2d
+<https://www.jianshu.com/p/6c32d2078a2d>
 
-### <font face="Meiryo UI" color=#00008B> 
+### <font face="Meiryo UI" color=#00008B>
+
 **nvm安装和配置**
 </font>  
-https://www.jianshu.com/p/273241280b72
+<https://www.jianshu.com/p/273241280b72>
 
-### <font face="Meiryo UI" color=#00008B> 
+### <font face="Meiryo UI" color=#00008B>
+
 **使用nvm安装nodejs**
 </font>  
-https://blog.csdn.net/hyk521/article/details/107475478
+<https://blog.csdn.net/hyk521/article/details/107475478>
 
 ``` bash
 #查看可安装node版本
@@ -36,18 +40,20 @@ nvm use 16.14.0
 nvm node_mirror https://registry.npmmirror.com/mirrors/node/  
 nvm npm_mirror https://registry.npmmirror.com/mirrors/npm/  
 
-``` 
-
+```
 
 # Node.js管理 - nvm
-## 
 
-### <font face="Meiryo UI" color=#00008B> 
+##
+
+### <font face="Meiryo UI" color=#00008B>
+
 **NPM镜像源查看和切换**
 </font>  
-https://www.cnblogs.com/seeding/p/15219113.html
+<https://www.cnblogs.com/seeding/p/15219113.html>
 
-### <font face="Meiryo UI" color=#00008B> 
+### <font face="Meiryo UI" color=#00008B>
+
 **npm管理**
 </font>  
 
@@ -77,11 +83,13 @@ yarn config set registry https://registry.npmmirror.com/
 
 #安装cnpm 并且设置为淘宝镜像源
 npm install -g cnpm -registry=https://registry.npmmirror.com/
-``` 
+```
 
-### <font face="Meiryo UI" color=#00008B> 
+### <font face="Meiryo UI" color=#00008B>
+
 **镜像源链接切换**
 </font>  
+
 ``` bash
 #查看镜像源使用状态： 
 npm get registry 
@@ -91,11 +99,13 @@ npm config set registry https://registry.npmjs.org
 #全局切换官方镜像源 
 npm config set registry http://www.npmjs.org
 yarn config set registry https://registry.yarnpkg.com/
-``` 
+```
 
-### <font face="Meiryo UI" color=#00008B> 
+### <font face="Meiryo UI" color=#00008B>
+
 **nrm 管理镜像源**
-</font> 
+</font>
+
 ``` bash
 npm install nrm -g
 npm install -g nrm
@@ -124,14 +134,16 @@ https://skimdb.npmjs.com/registry/
 
 -------- edunpm ----- 
 http://registry.enpmjs.org/
-``` 
+```
 
-#### <font face="Meiryo UI" color=#00008B> 
+#### <font face="Meiryo UI" color=#00008B>
+
 **切换镜像源**
 </font>  
 nrm use taobao
 
-#### <font face="Meiryo UI" color=#00008B> 
+#### <font face="Meiryo UI" color=#00008B>
+
 **Node version support policy**
-</font>   
-https://github.com/sass/node-sass
+</font>
+<https://github.com/sass/node-sass>
