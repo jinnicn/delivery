@@ -1,0 +1,9 @@
+
+Nativefier——快速将网站打包成桌面程序
+
+https://github.com/nativefier/nativefier
+
+基盘使用Electron实现
+
+使用参考
+https://blog.csdn.net/was172/article/details/85861753
